@@ -4,7 +4,7 @@ import common.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-// Page object 
+// Page object
 public class HomePage extends CommonAPI {
 
     @FindBy(id = "email")
