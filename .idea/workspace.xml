@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="744d6bfa-4f32-4fdc-b19d-f3860ad5e8a1" name="Default Changelist" comment="" />
+    <list default="true" id="744d6bfa-4f32-4fdc-b19d-f3860ad5e8a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPractice/src/main/java/practice/PracticePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/src/main/java/practice/PracticePage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,17 +53,17 @@
       <recent name="$PROJECT_DIR$/Generic/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTest.testUserCannotLogInToFacebookWithInvalidCredentials">
-    <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
+  <component name="RunManager" selected="TestNG.PracticeTest">
+    <configuration name="PracticeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -65,17 +71,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTest.testUserCanLogInSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
+    <configuration name="PracticeTest.testFail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
-      <option name="METHOD_NAME" value="testUserCanLogInSuccessfully" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
+      <option name="METHOD_NAME" value="testFail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -83,17 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTest.testUserCannotLogInToFacebookWithInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
+    <configuration name="PracticeTest.testMouseHoverTop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
-      <option name="METHOD_NAME" value="testUserCannotLogInToFacebookWithInvalidCredentials" />
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
+      <option name="METHOD_NAME" value="testMouseHoverTop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,10 +107,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/fahim/Documents/StandardFramework/Facebook/src/test/resources/FacebookRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Facebook" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/FacebookRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration name="PracticeTest.testOkAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
+      <option name="METHOD_NAME" value="testOkAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeTest.testSwitchWindow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice" />
+      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
+      <option name="METHOD_NAME" value="testSwitchWindow" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -113,10 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomeTest.testUserCannotLogInToFacebookWithInvalidCredentials" />
-        <item itemvalue="TestNG./Users/fahim/Documents/StandardFramework/Facebook/src/test/resources/FacebookRunner.xml" />
-        <item itemvalue="TestNG.HomeTest.testUserCanLogInSuccessfully" />
-        <item itemvalue="TestNG.HomeTest" />
+        <item itemvalue="TestNG.PracticeTest" />
+        <item itemvalue="TestNG.PracticeTest.testFail" />
+        <item itemvalue="TestNG.PracticeTest.testSwitchWindow" />
+        <item itemvalue="TestNG.PracticeTest.testMouseHoverTop" />
+        <item itemvalue="TestNG.PracticeTest.testOkAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -146,22 +179,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1397" height="209" key="GridCell.Tab.0.bottom" timestamp="1579988481397">
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1580073012341">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1397" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1579988481397" />
-    <state width="1397" height="209" key="GridCell.Tab.0.center" timestamp="1579988481396">
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1580073012341" />
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1580068846222" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1580073012340">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1397" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1579988481396" />
-    <state width="1397" height="209" key="GridCell.Tab.0.left" timestamp="1579988481396">
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1580073012340" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1580068846222" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1580073012340">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1397" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1579988481396" />
-    <state width="1397" height="209" key="GridCell.Tab.0.right" timestamp="1579988481397">
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1580073012340" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1580068846221" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1580073012341">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1397" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1579988481397" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1580073012341" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1580068846222" />
     <state x="221" y="68" key="SettingsEditor" timestamp="1579563397754">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
@@ -170,5 +207,9 @@
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="96" y="129" key="new project wizard/0.23.1440.813@0.23.1440.813" timestamp="1579980382730" />
+    <state x="385" y="197" width="670" height="676" key="search.everywhere.popup" timestamp="1580068764612">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="197" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1580068764612" />
   </component>
 </project>
