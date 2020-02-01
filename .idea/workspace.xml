@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="744d6bfa-4f32-4fdc-b19d-f3860ad5e8a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/account/AccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/account/OrderHistoryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/cart/CheckoutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/home/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestAmazonSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Facebook/src/test/java/home/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Facebook/src/test/java/home/HomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumPractice/src/main/java/practice/PracticePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/src/main/java/practice/PracticePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,35 +57,18 @@
       <recent name="$PROJECT_DIR$/Generic/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PracticeTest">
-    <configuration name="PracticeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
+  <component name="RunManager" selected="TestNG.HomeTest.testUserCanLogInSuccessfully">
+    <configuration name="HomeTest.testUserCanLogInSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Facebook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticeTest.testFail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
-      <option name="METHOD_NAME" value="testFail" />
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.HomeTest" />
+      <option name="METHOD_NAME" value="testUserCanLogInSuccessfully" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,17 +76,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTest.testMouseHoverTop" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
+    <configuration name="TestAmazonHomePage.testSearchMultipleItems" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
-      <option name="METHOD_NAME" value="testMouseHoverTop" />
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.TestAmazonHomePage" />
+      <option name="METHOD_NAME" value="testSearchMultipleItems" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,17 +94,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTest.testOkAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
+    <configuration name="TestAmazonHomePage.testSignUp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.*" />
+          <option name="PATTERN" value="home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
-      <option name="METHOD_NAME" value="testOkAlert" />
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.TestAmazonHomePage" />
+      <option name="METHOD_NAME" value="testSignUp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,17 +112,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTest.testSwitchWindow" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice" />
-      <option name="MAIN_CLASS_NAME" value="practice.PracticeTest" />
-      <option name="METHOD_NAME" value="testSwitchWindow" />
+    <configuration name="TestAmazonSearch.testSearchItems" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAmazonSearch" />
+      <option name="METHOD_NAME" value="testSearchItems" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAmazonSearch.testSearchItemsUsingDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestAmazonSearch" />
+      <option name="METHOD_NAME" value="testSearchItemsUsingDataProvider" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PracticeTest" />
-        <item itemvalue="TestNG.PracticeTest.testFail" />
-        <item itemvalue="TestNG.PracticeTest.testSwitchWindow" />
-        <item itemvalue="TestNG.PracticeTest.testMouseHoverTop" />
-        <item itemvalue="TestNG.PracticeTest.testOkAlert" />
+        <item itemvalue="TestNG.HomeTest.testUserCanLogInSuccessfully" />
+        <item itemvalue="TestNG.TestAmazonHomePage.testSearchMultipleItems" />
+        <item itemvalue="TestNG.TestAmazonHomePage.testSignUp" />
+        <item itemvalue="TestNG.TestAmazonSearch.testSearchItemsUsingDataProvider" />
+        <item itemvalue="TestNG.TestAmazonSearch.testSearchItems" />
       </list>
     </recent_temporary>
   </component>
@@ -179,25 +172,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1580073012341">
+    <state x="545" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580583862296">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1580073012341" />
+    <state x="545" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.813@0.23.1440.813" timestamp="1580583862296" />
+    <state width="1223" height="209" key="GridCell.Tab.0.bottom" timestamp="1580591076818">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1223" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1580591076818" />
     <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1580068846222" />
-    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1580073012340">
+    <state width="1223" height="209" key="GridCell.Tab.0.center" timestamp="1580591076818">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1580073012340" />
+    <state width="1223" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1580591076818" />
     <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1580068846222" />
-    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1580073012340">
+    <state width="1223" height="209" key="GridCell.Tab.0.left" timestamp="1580591076817">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1580073012340" />
+    <state width="1223" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1580591076817" />
     <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1580068846221" />
-    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1580073012341">
+    <state width="1223" height="209" key="GridCell.Tab.0.right" timestamp="1580591076818">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1580073012341" />
+    <state width="1223" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1580591076818" />
     <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1580068846222" />
     <state x="221" y="68" key="SettingsEditor" timestamp="1579563397754">
       <screen x="0" y="23" width="1440" height="813" />
